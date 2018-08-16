@@ -1,0 +1,63 @@
+/* line 1, /Users/dara/Sites/counter/style.scss */
+body {
+  position: relative;
+  font-family: sans-serif; }
+
+/* line 6, /Users/dara/Sites/counter/style.scss */
+.count-wrapper {
+  position: relative;
+  padding: 10px;
+  background: #999;
+  height: 400px; }
+
+/* line 13, /Users/dara/Sites/counter/style.scss */
+.count {
+  border: 1px black solid;
+  position: absolute;
+  background: white;
+  height: 150px;
+  padding: 20px;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10em;
+  line-height: 1em;
+  font-family: serif; }
+
+/* line 27, /Users/dara/Sites/counter/style.scss */
+.count-text {
+  position: absolute;
+  background: white;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px; }
+
+/* line 36, /Users/dara/Sites/counter/style.scss */
+.new-inc-form {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%); }
+
+/* line 43, /Users/dara/Sites/counter/style.scss */
+.inc-list {
+  background: #ddd;
+  padding: 10px; }
+
+/* line 48, /Users/dara/Sites/counter/style.scss */
+.inc {
+  background: white;
+  border: black 1px solid;
+  padding: 0 15px;
+  margin: 0 0 10px; }
+
+/* line 55, /Users/dara/Sites/counter/style.scss */
+.inc:last-child {
+  margin: 0; }
+
+/* line 59, /Users/dara/Sites/counter/style.scss */
+p:first-child {
+  font-family: monospace; }
+
+/*# sourceMappingURL=style.css.map */

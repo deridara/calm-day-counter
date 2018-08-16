@@ -1,0 +1,61 @@
+body {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.count-wrapper {
+    position: relative;
+    padding: 10px;
+    background: #999;
+    height: 400px;
+}
+
+.count {
+    border: 1px black solid;
+    position: absolute;
+    background: white;
+    height: 150px;
+    padding: 20px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10em;
+    line-height: 1em;
+    font-family: serif;
+}
+
+.count-text {
+    position: absolute;
+    background: white;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.new-inc-form {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inc-list {
+    background: #ddd;
+    padding: 10px;
+}
+
+.inc {
+    background: white;
+    border: black 1px solid;
+    padding: 0 15px;
+    margin: 0 0 10px;
+}
+
+.inc:last-child {
+    margin: 0;
+}
+
+p:first-child {
+    font-family: monospace;
+}
