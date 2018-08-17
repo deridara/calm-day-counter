@@ -34,7 +34,8 @@ const increaseByOne = () => {
     console.log(typeof incCount, typeof + incCount);
 }
 
-const wordForNum = (str1, str2, str3) => (num) => {
+const wordForNum = (str1, str2, str3) => (n) => {
+    const num = n%100;
     if (num > 4 && num < 21) return str3;
     if (num % 10 === 1) return str1;
     if (num % 10 > 1 && num % 10 < 5) return str2;
