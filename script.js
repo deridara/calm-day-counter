@@ -42,6 +42,6 @@ const wordForNum = (str1, str2, str3) => (num) => {
 }
 
 const countString = (num) => {
-    const days = wordForNum('День', 'Дня', 'Дней')(num);
+    const days = wordForNum('день', 'дня', 'дней')(num);
     return `${days} без происшествий`;
 }
